@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """File storage class for AirBnB"""
 import json
 from models.base_model import BaseModel
