@@ -11,7 +11,7 @@ Base = declarative_base()
 
 
 class BaseModel:
-    """Defines all common methods and attributes for the pther classes"""
+    """Defines all common methods and attributes for the other classes"""
 
     id = Column(String(60), unique=True, nullable=False, primary_key=True)
     created_at = Column(DateTime, nullable=False, default=(datetime.utcnow()))
